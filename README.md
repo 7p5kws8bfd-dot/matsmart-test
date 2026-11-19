@@ -1,2 +1,2 @@
 # matsmart-test
-Minskat matsvinn —> Svällande plånbok
+Minskat matsvinn
