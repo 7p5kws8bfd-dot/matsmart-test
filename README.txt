@@ -1,10 +1,9 @@
-Matsmart 0.2.1 – korrigering för iPhone
+Matsmart 0.2.3 – ZXing-test för iPhone
 
-1. Säkerhetskopiera befintliga varor innan uppdatering.
-2. Ladda upp enskilda filer till samma GitHub-repository och ersätt filer med samma namn.
-3. Kontrollera GitHub Actions och öppna samma Pages-adress.
-4. Kameraskanning använder html5-qrcode från unpkg och kräver internet när biblioteket hämtas. Safari måste få kamerabehörighet.
-5. Tidigare lokala data delas inte alltid mellan Safari och en installerad webbapp. Använd Exportera/Återställ för att flytta data. Återställ ersätter nuvarande varor.
-6. Om tidigare varor saknas: öppna gamla Matsmart från samma ikon eller Safari-miljö som tidigare och gör säkerhetskopia där. Rensa inte webbplatsdata.
+Ladda upp de SJU uppackade filerna i GitHub-repots rot. Ladda INTE upp ZIP-filen som en enda fil.
 
-Version 0.2.2: Större skanningsyta (hela kamerabilden), stöd för vanliga EAN/UPC-streckkoder och förbättrad instruktion. Behåller samma lokala datanyckel och backupformat. Kameraskanning måste testas på fysisk iPhone.
+Ändrat: html5-qrcode ersatt med ZXing, EAN/UPC-fokus, kamerastatus med avkodningsförsök.
+
+OBS: Kräver internet för ZXing-bibliotek och Open Food Facts. Kameraskanning är ännu inte verifierad på iPhone.
+
+Säkerhetskopiera i 0.2.2 före uppdatering. Befintlig localStorage-nyckel är oförändrad.
